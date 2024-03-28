@@ -1,0 +1,26 @@
+generate_sudoku_puzzle():
+Starts with a completed grid, theme randomly deletes numbers from the puzzle so that users can guess/solve
+Replaces the numbers with a ‘0’ to represent an empty cell
+
+display_grid(grid):
+Displays grid using Tkinter
+‘Grid’ argument: the sudoku grid that is generated
+
+validate_guess(grid, row, col, num):
+Asks user for input in order to submit their guess
+Checks if the guess goes against Sudoku rules
+If guess is correct, returns ‘True’
+If guess is incorrect, returns ‘False’ and asks for another guess
+‘Grid’ argument: the sudoku grid that is generated
+‘Row’ argument: the row index of the empty cell they want to input their guess to
+‘Col’ argument: the column index of the empty cell they want to input their guess to
+‘Num’ argument: their guess
+
+updated_grid(grid):
+Changes the shown grid so that it includes any correct guesses made by user
+
+is_puzzle_solved(grid):
+Checks if there are any ‘0’s in the grid
+If there is, the program tells the user which cell is empty
+Returns ‘complete’ if grid is full
+‘Grid’ argument: the sudoku grid that is generated
