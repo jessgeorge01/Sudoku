@@ -1,4 +1,4 @@
-from sudoku import validate_guess, is_puzzle_solved 
+from sudoku_puzzle import validate_guess, is_puzzle_solved 
 import pytest
 import tkinter as tk 
 from tkinter import messagebox
