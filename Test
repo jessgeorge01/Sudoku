@@ -1,9 +1,0 @@
-Run the program file
-Program will generate a Sudoku puzzle grid
-User inputs guesses for each empty cell (cell that says ‘0’)
-  The only input data reqquired is the row, column, and guess entered by the user. These should all be integers. An example of this would be 2,5,8. 2 is the index of the row, 5 is the index of the column, and 8 is the user's guess.
-Program will return ‘True’ if guess is correct
-Program will return ‘False’ if guess is wrong
-Program will prompt user for another guess until the grid is full
-Program will end by saying ‘complete!’ once grid is completely full
-Program is done
