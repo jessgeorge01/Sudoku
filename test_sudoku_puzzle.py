@@ -52,9 +52,9 @@ def test_validate_guess_correct(puzzle_grid, root, solution):
 
 def test_validate_guess_wrong(puzzle_grid, root, solution):
 
-    row = 1
-    col = 0
-    num = 2
+    row = '1'
+    col = '0'
+    num = '2'
     
     validate_guess(puzzle_grid, root, solution, row, col, num)
     assert puzzle_grid[1][0] == 0
